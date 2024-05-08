@@ -1,0 +1,75 @@
+main.information {
+  background-color: $main;
+  color: $text;
+  font-family: $header-font;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.title-information {
+  width: 100%;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.card {
+  width: $card-width;
+  margin-bottom: 1.25rem;
+}
+
+.container-information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 2.5rem;
+  max-width: 75rem;
+}
+
+.card-img-top {
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.card-text {
+  font-size: 0.875rem;
+  font-family: $body-font;
+}
+
+/* stylelint-disable */
+@media (max-width: #{$breakpoint-xs - 1}) {
+
+  .title_information {
+      margin-top: 2rem; 
+  }
+  
+  .container_information {
+      gap: 2rem; 
+  }
+  
+  .card-text {
+      font-size: 1rem; 
+  }
+  
+    }
+    
+    @media (min-width: #{$breakpoint-xs}) and (max-width: #{$breakpoint-sm - 1}) {
+      .title_information {
+          margin-top: 2rem; 
+      }
+      
+      .container_information {
+          gap: 2rem; 
+      }
+      
+      .card-text {
+          font-size: 1rem; 
+      }
+    }
+/* stylelint-enable */

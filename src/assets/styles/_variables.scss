@@ -1,0 +1,16 @@
+@import url("sass:color");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+20&display=swap");
+
+$header-font: "Jaro", sans-serif;
+$body-font: sans-serif;
+
+$card-width: 16rem;
+
+$main: #0c0c0c;
+$accent: #ffd100;
+$text: #fafafa;
+
+$breakpoint-xs: 36rem;
+$breakpoint-sm: 48rem;
+$breakpoint-md: 62rem;
+$breakpoint-lg: 75rem;
