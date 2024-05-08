@@ -6,8 +6,8 @@
 // import 'some-node-module';
 // import SomeModule from 'some-node-module';
 
-/**
- * document.getElementById("submitButton").addEventListener("click", function(event) {
+
+document.getElementById("submitButton").addEventListener("click", function(event) {
   // Evita que el formulario se envíe automáticamente
   event.preventDefault();
 
@@ -56,8 +56,6 @@
   // Si todas las validaciones son exitosas, puedes enviar el formulario
   document.getElementById("form").submit();
 });
-
- */
 
 
 
